@@ -1,0 +1,399 @@
+html {
+  background-color: black;
+  background-image: url(mc1.webp);
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ramka {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(187, 34, 187);
+  padding: 270px;
+  padding-left: 390px;
+  margin-left: 250px;
+  margin-top: 100px;
+  border: 10px solid rgb(166, 12, 166);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.prostokat.mateusz {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(187, 34, 187);
+  border: 10px solid rgb(166, 12, 166);
+  padding: 100px;
+  padding-left: 1px;
+  position: absolute;
+  left: 290px;
+  top: 135px;
+  z-index: 1;
+}
+
+.square2 {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(187, 34, 187);
+  border: 5px solid rgb(166, 12, 166);
+  padding: 1px;
+  position: absolute;
+  left: 520px;
+  top: 372px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.square2:hover {
+  background-color: rgb(255, 0, 221);
+}
+
+.square3 {
+  height: 85px;
+  width: 85px;
+  background-color: rgb(166, 12, 166);
+  border-radius: 5px;
+  position: absolute;
+  left: 640px;
+  top: 370px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.square3:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.ksiazka {
+  height: 77px;
+  width: 77px;
+  position: absolute;
+  left: 4px;
+  top: 2px;
+}
+
+.square4 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 600px;
+  top: 135px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.square4:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.square5 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 703px;
+  top: 135px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.square5:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.square6 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 703px;
+  top: 238px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.square6:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.square7 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 600px;
+  top: 238px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.square7:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.square8 {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 900px;
+  top: 195px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.square8:hover {
+  background-color: rgb(255, 0, 221);
+}
+
+.maciek {
+  position: absolute;
+  left: 600px;
+  top: 115px;
+  color: white;
+  font-family: cursive;
+}
+
+.steve {
+  height: 300px;
+  width: 120px;
+  background-color: black;
+  position: absolute;
+  top: 145px;
+  left: 380px;
+  z-index: 1;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(187, 34, 187);
+  position: relative;
+  bottom: 290px;
+  left: 265px;
+  width: 750px;
+  height: 90px;
+}
+
+.flex-container > div:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.flex-container > div {
+  background-color: rgb(166, 12, 166);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.flex-container1 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(187, 34, 187);
+  position: relative;
+  bottom: 290px;
+  left: 265px;
+  width: 750px;
+  height: 90px;
+}
+
+.flex-container1 > div {
+  background-color: rgb(166, 12, 166);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.flex-container1 > div:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(187, 34, 187);
+  position: relative;
+  bottom: 284px;
+  left: 265px;
+  width: 750px;
+  height: 90px;
+}
+
+.flex-container2 > div {
+  background-color: rgb(166, 12, 166);
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.flex-container2 > div:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.twr {
+  position: absolute;
+  width: 100px;
+}
+
+.helm {
+  height: 65px;
+  width: 65px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 308px;
+  top: 148px;
+  z-index: 1;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.helm:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.klata {
+  height: 65px;
+  width: 65px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 308px;
+  top: 225px;
+  z-index: 1;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.klata:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.spodnie {
+  height: 65px;
+  width: 65px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 308px;
+  top: 300px;
+  z-index: 1;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.spodnie:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+  border: 1px solid snow;
+}
+
+.buty {
+  height: 65px;
+  width: 65px;
+  background-color: rgb(166, 12, 166);
+  position: absolute;
+  left: 308px;
+  top: 375px;
+  z-index: 1;
+  opacity: 1.6;
+  transition: 0.3s;
+}
+
+.buty:hover {
+  background-color: rgb(255, 0, 221);
+  border-radius: 10px;
+
+  border: 1px solid snow;
+}
+
+.stif {
+  height: 230px;
+  position: absolute;
+  bottom: 30px;
+  left: 5px;
+}
+
+.mieczycho {
+  z-index: 1;
+  position: absolute;
+  height: 66px;
+  width: 66px;
+  left: 17px;
+}
+
+.lopacisko {
+  z-index: 1;
+  position: absolute;
+  height: 66px;
+  width: 66px;
+  left: 110px;
+  top: 13px;
+}
+
+.siekiersko {
+  z-index: 1;
+  position: absolute;
+  height: 66px;
+  width: 66px;
+  left: 200px;
+  top: 13px;
+}
+
+.chleb {
+  z-index: 1;
+  position: absolute;
+  height: 66px;
+  width: 66px;
+  left: 296px;
+  top: 13px;
+}
+
+.strzala {
+  position: absolute;
+  top: 200px;
+  z-index: 1;
+  left: 810px;
+  height: 90px;
+  width: 90px;
+}
+
+.zielsko {
+  position: absolute;
+  top: 10px;
+  z-index: 1;
+  left: 5px;
+  height: 90px;
+  width: 90px;
+}
